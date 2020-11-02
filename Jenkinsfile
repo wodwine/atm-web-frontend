@@ -13,7 +13,7 @@ pipeline {
           stage('Source') {
                steps {
                     git branch: 'main',
-                        url:    'https://github.com/ladyusa/atm-web-frontend.git'
+                        url:    'https://github.com/wodwine/atm-web-frontend.git'
                }
           }
           stage('Build') {
